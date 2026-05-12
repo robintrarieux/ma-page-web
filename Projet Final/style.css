@@ -1,0 +1,48 @@
+.header {
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.header h1, .header h2{
+    border: 2px solid black;
+    padding: 8px;
+}
+
+.header h1{
+    margin-top: 45px;
+    margin-left: 30px;
+}
+
+.menu {
+    display: flex;
+    padding: 30px;
+}
+
+.contact {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+width: 80px;
+
+}
+
+.test img{
+    width: 800px;
+}
+
+.test {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
