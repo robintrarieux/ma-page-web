@@ -4,32 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title> Projet </title>
+    <title>Portfolio - Robin Trarieux</title>
 </head>
 <body>
-    <div class="header">
-        <h1> Robin Trarieux </h1>
-        <div class="menu">
-            <h2> A propos </h2>
-            <div class="contact">
-                <h2> Contact </h2>
-            </div>
-            <img src="images/logoinsta.png" alt="insta" class="logo">
-        </div>
-    </div>
 
-    <div class="test">
-        <img src="images/photo1.png" alt="setup" class="setup">
-    </div>
+    <header class="header">
+        <h1>Robin Trarieux</h1>
+        <nav class="menu">
+            <a href="#apropos" class="nav-link">À propos</a>
+            <a href="#contact" class="nav-link">Contact</a>
+            <a href="https://www.instagram.com/rob1.tx/" target="_blank" class="nav-link">
+                <img src="images/logoinsta.png" alt="Logo Instagram" class="logo">
+            </a>
+        </nav>
+    </header>
 
-    <hr>
-    <hr>
+    <main>
+        <!-- Section "Studio & Musique" -->
+        <section class="studio-section">
+            <figure class="clap-container">
+                <img src="images/IMG_9855.JPG" alt="Clap" class="clap">
+                <figcaption> Tournage </figcaption>
+            </figure>
 
-    <div class="bouton">
-        <button> 
-            <a href="index2.html"> page suivante</a>
-        </button>
-    </div>
-
+            <figure class="guitar-container">
+                <img src="images/squier-stratocaster.jpg" alt="Squier Stratocaster Classic Vibe 70s" class="guitar">
+                <figcaption> Ma Stratocaster </figcaption>
+            </figure>
+        </section>
+        <div class="button-container">
+    <a href="index2.html" class="button">Découvrir plus</a>
+</div>
+    </main>
 </body>
 </html>
