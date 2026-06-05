@@ -1,13 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Portfolio - Robin Trarieux</title>
 </head>
 <body>
-    <h1> Voici la deuxième page</h1>
-    <img src="images/hell-yeah.jpeg" alt="hell-yeah" class="hellyeah">
+    <header class="header">
+        <h1><a href="index.html" class="nav-link">Robin Trarieux</a></h1>
+        <nav class="menu">
+            <a href="index.html#apropos" class="nav-link">À propos</a>
+            <a href="index.html#contact" class="nav-link">Contact</a>
+            <a href="https://www.instagram.com/rob1.tx/" target="_blank" class="nav-link">
+                <img src="images/logoinsta.png" alt="Logo Instagram" class="logo">
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="button-container">
+            <a href="index.html" class="button">Retour</a>
+        </div>
+
+        <section class="portfolio-section">
+            <div class="portfolio-grid">
+                <a href="https://www.calameo.com/books/008237843bed34a8dcaa1">
+                    <figure class="portfolio-item">
+                        <img src="images/LE GUIDE DE L'EFAP.pdf" alt="Projet 1" class="portfolio-img">
+                        <figcaption class="portfolio-caption">Le Guide De l'EFAP</figcaption>
+                        <p class="portfolio-text">Création d'un magazine pour les nouveaux élèves de l'école.</p>
+                    </figure>
+                </a>
+                
+
+                <figure class="portfolio-item">
+                    <img src="images/IMG_8337.JPG" alt="Projet 2" class="portfolio-img">
+                    <figcaption class="portfolio-caption">Photographie</figcaption>
+                    <p class="portfolio-text">J'aime bien photographier ce qu'il se passe autour de moi.</p>
+                </figure>
+
+                <figure class="portfolio-item">
+                    <img src="images/IMG_9855.JPG" alt="Projet 3" class="portfolio-img">
+                    <figcaption class="portfolio-caption">Tournage</figcaption>
+                    <p class="portfolio-text">Dans le cadre de mes études, j'ai participé à plusieurs tournages.</p>
+                </figure>
+            </div>
+
+            <div class="featured-project">
+                <a href="https://www.youtube.com/watch?v=XzKskcgrsoU" target="_blank">
+                    <figure class="featured-item">
+                        <img src="images/Capture d’écran 2026-06-05 à 12.04.12.png" alt="Projet recommandé" class="featured-img">
+                        <figcaption class="featured-caption">Recommandation Clip Vidéo</figcaption>
+                        <p class="featured-text">Voici le clip du single de Safe Waters, un projet de mes amis proches qui font de la musique. Ils ont réalisés à 100% leur clip, grâce à leurs compétences en cinéma/audiovisuel.</p>
+                    </figure>
+                </a>
+            </div>
+
+            <div class="portfolio-description">
+                <p>Mon site est tout neuf, je compte rajouter d'autres travaux personnels ou en groupe sur cette page, donc restez à l'affut !</p>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
